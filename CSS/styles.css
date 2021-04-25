@@ -1,0 +1,29 @@
+
+
+.container-fluid{padding: 5% 3% 7.5%; background-size: 100%; }
+
+.top{font-size: 5em; margin: 0}
+
+#title{
+background-color: #1b1717;
+text-align: center;
+color: #ce1212;
+font-family: 'Acme', sans-serif;
+}
+
+
+#myInput{ width: 50%;
+transition: width 0.4s ease-in-out; margin: 10px}
+
+#email{ width: 50%;
+transition: width 0.4s ease-in-out; margin: 10px}
+
+.submit-button{padding: 2%}
+
+.bull{width: 8%; margin: 2%}
+
+.submit-btn{padding: 10px;}
+
+.subhead{font-size: 3rem}
+
+.lastMessage{font-size: 3rem; color: green;}
