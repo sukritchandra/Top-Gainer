@@ -26,18 +26,25 @@
 
 
   <form class="" action="index.html" method="post" >
-    <label for = "winner" class = "subhead"> Choose You Winner </label><br>
-      <input id="myInput" type="text" name="winner" placeholder="Name of Stock..." ><br>
+    <label for = "winner" class = "subhead"> Choose Your Winner! </label><br>
+
+      <input id="myInput" list="stocks" name="winner" placeholder="Name of Stock..." autocomplete="on"><br>
+
+      <datalist id = "stocks">
+
+          <option value="Tata Power">
+          <option value="Adani Gas">
+          <option value="Everest Kanto">
+          <option value="Ashok Leyland">
+          <option value="CG Power">
+      </datalist>
+
       <label for = "email" class = "email"> </label>
-        <input id="email" type="email" name="email" placeholder="Your Email Id"><br>
-      <button class = "btn btn-success submit-btn" type="button">Submit</button>
+        <input id="email" type="text" name="email" placeholder="Your Email Id"><br>
+      <input type="submit" class = "btn btn-success submit-btn" ></input>
   </form>
 
   </div>
-
-
-
-
 
       </div>
 
